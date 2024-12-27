@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,82 @@
     <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <style type="text/tailwindcss">
-      @layer utilities {
+        @layer utilities {
         .content-auto {
           content-visibility: auto;
         }
       }
     </style>
 </head>
+
 <body>
-    <header> 
+    <header class="header">
+        <div class="w-[1400px]">
+
+            <div class="block1">
+                <img src="./img/image1.png" alt="Logo">
+                <nav>
+                    <ul>
+                        <li><a href="#">О комплексе</a></li>
+                        <li><a href="#">Район</a></li>
+                        <li><a href="#">Каталог квартир</a></li>
+                        <li><a href="#">Ипотека</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="block1-texst">
+                <h1>Жилой комплекс в историческом центре</h1>
+                <div>
+                    <img src="./img/image2.png" alt="">
+                    <p>Наб. реки Фонтанки 10-15</p>
+                </div>
+                <div>
+                    <img src="./img/image3.png" alt="">
+                    <p>+996 706 247 507</p>
+                </div>
+            </div>
+        </div>
+
+
     </header>
-<main>
-    <section></section>
-    <section></section>
-    <section></section>
-    <!-- aitenir -->
-    <section></section>
-    <section></section>
-    <section></section>
-    
-</main>
+
+    <main>
+        <section class="section1">
+            <div class="cards">
+                <div class="card">
+                    <img src="./img/image4.png" alt="">
+                    <p>Рядом исторические
+                        парки и скверы</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="section2">
+            <div class="nuri">
+                <h2>НАШИ КВАРТИРЫ</h2>
+                <div class="imgs">
+                    <img src="./img/image8.png" alt="">
+                    <p>LOFT - 3 этаж</p>
+                </div>
+                <div class="imgs">
+                    <img src="./img/image9.png" alt="">
+                    <p>LOFT - 3 этаж</p>
+                </div>
+            </div>
+
+        </section>
+        <section></section>
+        <!-- aitenir -->
+        <section></section>
+        <section></section>
+        <section></section>
+
+    </main>
 
 
 
     <script src="./app.js"></script>
 </body>
+
 </html>
