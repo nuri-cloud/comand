@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('./img/Rectangle (1).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+/* Верхний блок */
+.block1 {
+    width: 100%;
+    /* Растягиваем блок по ширине */
+    display: flex;
+    justify-content: space-between;
+    /* Логотип слева, меню справа */
+    align-items: center;
+    padding: 0 40px;
+    position: relative;
+}
+
+.block1 img {
+    width: 134px;
+    height: 66px;
+}
+
+.block1 nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.block1 nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    /* Белый текст */
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    /* Плавный эффект при наведении */
+}
+
+.block1 nav ul li a:hover {
+    color: #D4C17F;
+    /* Цвет текста при наведении */
+    transform: scale(1.1);
+    /* Увеличение текста */
+    font-weight: 600;
+}
+
+
+.block1-texst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.block1-texst h1 {
+    color: #D4C17F;
+    width: 556px;
+    height: 109px;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.block1-texst div {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.block1-texst div img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.block1-texst div p {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .block1-texst h1 {
+        font-size: 28px;
+    }
+
+    .block1-texst div img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .block1-texst div p {
+        font-size: 14px;
+    }
+}
+
+.section1 {
+    background-color: #242B33;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+}
+
+.cards {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    margin-top: 120px;
+}
+
+.card p {
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/* section2 */
+.section2 {
+    background-color: #242B33;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    width: 292px;
+    height: 36px;
+    color: #D4C17F;
+    margin-bottom: 300px;
+}
+
+.nuri {
+    width: 900px;
+    display: flex;
+    gap: 40px;
+}
+
+.imgs {
+    width: 650px;
+    height: 300px;
+}
