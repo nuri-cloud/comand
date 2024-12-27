@@ -19,6 +19,8 @@
 
 }
 
+
+
 /* Верхний блок */
 .block1 {
     width: 100%;
@@ -47,18 +49,15 @@
 .block1 nav ul li a {
     text-decoration: none;
     color: #fff;
-    /* Белый текст */
     font-size: 16px;
     font-weight: 500;
     transition: all 0.3s ease;
-    /* Плавный эффект при наведении */
+
 }
 
 .block1 nav ul li a:hover {
     color: #D4C17F;
-    /* Цвет текста при наведении */
     transform: scale(1.1);
-    /* Увеличение текста */
     font-weight: 600;
 }
 
@@ -71,7 +70,7 @@
     height: 100%;
     text-align: center;
     color: #fff;
-    padding: 20px;
+    margin-top: 10%;
 }
 
 .block1-texst h1 {
@@ -80,7 +79,7 @@
     height: 109px;
     font-size: 46px;
     font-weight: bold;
-    margin-bottom: 20px;
+
 }
 
 .block1-texst div {
@@ -162,15 +161,122 @@ h2 {
 }
 
 .nuri {
-    width: 900px;
+    width: 1200px;
     display: flex;
     gap: 40px;
 }
 
-.imgs {
-    width: 650px;
+.imgs img {
+    width: 1050px;
     height: 300px;
 }
+
+.imgs p {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+/* section 3 */
+
+.background-section {
+    background-image: url('./img/Rectangle.png');
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    width: 100%;
+
+    height: 100vh;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.texst h1 {
+    font-size: 46px;
+    color: #D4C17F;
+
+}
+
+.texst p {
+    margin-top: 25px;
+    width: 600px;
+    height: 114px;
+    margin-left: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.input-container {
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.input-container input {
+    flex: 1 1 calc(50% - 10px);
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-container p {
+    flex: 1 1 100%;
+    margin: 0;
+    font-size: 16px;
+    color: gray;
+}
+
+.input-container button {
+    flex: 1 1 100%;
+    padding: 10px;
+    background-color: #D4C17F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-container button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#output {
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* section 4 */
+
+.section3 .video {
+  margin: 0 auto;
+
 .cardsngj{
     width: 100%;
     background-color: #242B33;
@@ -205,4 +311,5 @@ display: flex;
     margin: auto;
     color: #FFFFFF;
     list-style: none;
+2
 }
